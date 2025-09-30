@@ -3,6 +3,8 @@ from constants import *
 from circleshape import *
 
 class Player(CircleShape):
+    #Player.containers = (group_a, group_b)
+
     def __init__(self, x, y, PLAYER_RADIUS):
         super().__init__(x,y,PLAYER_RADIUS)
         self.rotation = 0
